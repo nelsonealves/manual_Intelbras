@@ -1,0 +1,41 @@
+{ 
+    "AP 1750": 
+    [
+        {
+        "seção": {
+                "id": "status",
+                "name": "STATUS",
+                "file":"./zeus_pages/Status/status.html"
+                },
+            "subseção": [{
+                "id": "geral",
+                "name": "Geral",
+                "file": "./zeus_pages/Status/geral.html",
+                "anotation": null
+                },{
+                "id": "cliente_conectados",    
+                "name": "Clientes Conectados",
+                "file": "./zeus_pages/Status/clientes_conectados.html",
+                "anotation": null
+                },{
+                "id": "throughput",    
+                "name": "Thoughput",
+                "file": "./zeus_pages/Status/throughput.html",
+                "anotation": null
+                }] 
+        },{
+            "seção": {
+                "id": "rede",
+                "name": "REDE",
+                "file": "./zeus_pages/Rede/rede.html"
+            },
+            "subseção":[
+                {
+                    "id": "modo_operacao",
+                    "name": "WAN",
+                    "file": "./zeus_pages/Rede/wan.html"
+                }
+            ]
+        }
+    ]
+}

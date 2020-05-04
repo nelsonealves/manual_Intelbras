@@ -1,0 +1,44 @@
+{ 
+    "AP 360": 
+    [
+        {
+        "seção": {
+                "id": "status",
+                "name": "STATUS",
+                "file":"./zeus_pages/Status/status.html",
+                "anotation": ""
+                },
+            "subseção": [{
+                "id": "geral",
+                "name": "Geral",
+                "file": "./zeus_pages/Status/geral.html",
+                "anotation": ""
+                },{
+                "id": "cliente_conectados",    
+                "name": "Clientes Conectados",
+                "file": "./zeus_pages/Status/clientes_conectados.html",
+                "anotation": ""
+                },{
+                "id": "throughput",    
+                "name": "Thoughput",
+                "file": "./zeus_pages/Status/throughput.html",
+                "anotation": ""
+                }] 
+        },{
+            "seção": {
+                "id": "rede",
+                "name": "REDE",
+                "file": "./zeus_pages/Rede/rede.html",
+                "anotation": ""
+            },
+            "subseção":[
+                {
+                    "id": "modo_operacao",
+                    "name": "WAN",
+                    "file": "./zeus_pages/Rede/wan.html",
+                    "anotation": ""
+                }
+            ]
+        }
+    ]
+}

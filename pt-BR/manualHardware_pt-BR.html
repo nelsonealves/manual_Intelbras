@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>UnniTI | Manual do hardware</title>
+        <link href="../res/img/favicon.ico" rel="shortcut icon"/>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <link href="../res/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="../res/css/manual.css" rel="stylesheet" type="text/css"/>
+        <script src="../res/js/jquery.min.js"></script>
+        <script src="../res/js/bootstrap.min.js"></script>
+        <script src="../res/js/animatescroll.js"></script>
+        <script src="../res/js/manual.js"></script>
+    </head>
+    <body data-spy="scroll" data-target=".scrollspy">
+
+        <div class="overlay"></div>
+
+        <div class="header no-print">
+            <nav class="nav-header">
+                <div class="logo">
+                    <a href="../home.html">
+                        <figure>
+                            <img class="nav-img" src="../res/img/intelbras_marca.svg">
+                        </figure>
+                    </a>
+                </div>
+                <div class="iconMenu">
+                    <a id="toggleMenu">
+                        <img src="../res/img/menu.svg">
+                    </a>
+                </div>
+                <div style="float: right; top: 16px; position: relative;">
+                    <select onchange="location = this.value;">
+                        <option value="../pt-BR/manualHardware_pt-BR.html" selected>Português</option>
+                        <option value="../es/manualHardware_es.html">Español</option>
+                        <!-- <option value="../en/manualHardware_en.html">English</option> -->
+                    </select>
+                    <a href="#pdf" class="tooltip-left" data-tooltip="Clique para saber como exportar este manual para o formato PDF.">
+                        <img src="../res/img/pdf.svg">
+                    </a>
+                </div>
+                <ul style="list-style-type: none;">
+                    <li id="op1" class="nav-option bg1">
+                        <a href="manualHardware_pt-BR.html">
+                            <div class="ico-option">
+                                <?xml version="1.0" encoding="utf-8"?>
+                                <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" x="0px" y="0px" viewBox="0 0 88 88" xml:space="preserve">
+                                    <g>
+                                        <path fill="#00A94D" d="M44,1C20.3,1,1,20.3,1,44c0,23.7,19.3,43,43,43c23.8,0,43-19.3,43-43C87,20.3,67.7,1,44,1z M44,83.4
+                                            C22.2,83.4,4.6,65.8,4.6,44C4.6,22.2,22.2,4.6,44,4.6c21.8,0,39.4,17.6,39.4,39.4C83.4,65.8,65.8,83.4,44,83.4z"/>
+                                        <path fill="#00A94D" d="M60.5,27.3v33.4H27.5V27.3H60.5 M60.9,25.3H27.1c-0.9,0-1.6,0.7-1.6,1.6v34.3c0,0.9,0.7,1.6,1.6,1.6h33.8
+                                            c0.9,0,1.6-0.7,1.6-1.6V26.9C62.5,26,61.8,25.3,60.9,25.3L60.9,25.3z"/>
+                                        <path fill="#00A94D" d="M49.8,37.3c0.4,0,0.8,0.4,0.8,0.8v11.5c0,0.4-0.4,0.8-0.8,0.8H38.3c-0.4,0-0.8-0.4-0.8-0.8V38.1
+                                            c0-0.4,0.4-0.8,0.8-0.8H49.8 M49.8,36.5H38.3c-0.9,0-1.6,0.7-1.6,1.6v11.5c0,0.9,0.7,1.6,1.6,1.6h11.5c0.9,0,1.6-0.7,1.6-1.6V38.1
+                                            C51.4,37.2,50.7,36.5,49.8,36.5L49.8,36.5z"/>
+                                        <g>
+                                            <g>
+                                                <rect x="32.1" y="63.8" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="37.5" y="63.8" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="42.9" y="63.8" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="48.3" y="63.8" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="53.7" y="63.8" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="32.1" y="20.6" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="37.5" y="20.6" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="42.9" y="20.6" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="48.3" y="20.6" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="53.7" y="20.6" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="20.5" y="32.1" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="20.5" y="37.5" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="20.5" y="42.9" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="20.5" y="48.3" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="20.5" y="53.7" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="63.9" y="32.1" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="63.9" y="37.5" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="63.9" y="42.9" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="63.9" y="48.3" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="63.9" y="53.7" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="53.7" y="38.5" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="53.7" y="42.7" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="53.7" y="47" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="32.2" y="38.5" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="32.2" y="42.7" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="32.2" y="47" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="47.2" y="53.6" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                            <g>
+                                                <rect x="43" y="53.6" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                            <g>
+                                                <rect x="38.7" y="53.6" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="47.2" y="32.1" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                            <g>
+                                                <rect x="43" y="32.1" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                            <g>
+                                                <rect x="38.7" y="32.1" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="title-option">
+                                Manual do hardware
+                            </span>
+                            <span class="title-option m">
+                                Hardware
+                            </span>
+                        </a>
+                    </li>
+
+                    <li id="op2" class="nav-option bg2">
+                        <a href="manualGerWeb_pt-BR.html">
+                            <div class="ico-option">
+                                <?xml version="1.0" encoding="utf-8"?>
+                                <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" x="0px" y="0px"
+                                     viewBox="0 0 88 88" style="enable-background:new 0 0 88 88;" xml:space="preserve">
+                                    <g>
+                                        <path fill="#00A94D" d="M44,1C20.3,1,1,20.3,1,44c0,23.7,19.3,43,43,43c23.8,0,43-19.3,43-43C87,20.3,67.7,1,44,1z M44,83.4
+                                            C22.2,83.4,4.6,65.8,4.6,44C4.6,22.2,22.2,4.6,44,4.6c21.8,0,39.4,17.6,39.4,39.4C83.4,65.8,65.8,83.4,44,83.4z"/>
+                                        <path fill="#00A94D" d="M68.9,23.3H19.1c-1.9,0-3.4,1.5-3.4,3.4v34.5c0,1.9,1.5,3.4,3.4,3.4h49.9c1.9,0,3.4-1.5,3.4-3.4V26.7
+                                            C72.4,24.8,70.8,23.3,68.9,23.3z M68.5,25c0.5,0,1,0.4,1,1c0,0.5-0.4,1-1,1c-0.5,0-1-0.4-1-1C67.6,25.4,68,25,68.5,25z M65,25
+                                            c0.5,0,1,0.4,1,1c0,0.5-0.4,1-1,1c-0.5,0-1-0.4-1-1C64,25.4,64.4,25,65,25z M61.4,25c0.5,0,1,0.4,1,1c0,0.5-0.4,1-1,1
+                                            c-0.5,0-1-0.4-1-1C60.4,25.4,60.9,25,61.4,25z M70.5,59.4c0,1.8-1.5,3.3-3.4,3.3H21c-1.9,0-3.4-1.5-3.4-3.3V31.8
+                                            c0-1.8,1.5-3.3,3.4-3.3H67c1.9,0,3.4,1.5,3.4,3.3V59.4z"/>
+                                        <g>
+                                            <g>
+                                                <path fill="#00A94D" d="M65.8,59.8H38.7c-1.3,0-2.4-1.1-2.4-2.4v-3.9c0-1.3,1.1-2.4,2.4-2.4h27.1c1.3,0,2.4,1.1,2.4,2.4v3.9
+                                                    C68.2,58.7,67.1,59.8,65.8,59.8z M38.7,52.3c-0.6,0-1.2,0.5-1.2,1.2v3.9c0,0.6,0.5,1.2,1.2,1.2h27.1c0.6,0,1.2-0.5,1.2-1.2v-3.9
+                                                    c0-0.6-0.5-1.2-1.2-1.2H38.7z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M65.8,48.6H38.7c-1.3,0-2.4-1.1-2.4-2.4V34.8c0-1.3,1.1-2.4,2.4-2.4h27.1c1.3,0,2.4,1.1,2.4,2.4v11.4
+                                                    C68.2,47.5,67.1,48.6,65.8,48.6z M38.7,33.6c-0.6,0-1.2,0.5-1.2,1.2v11.4c0,0.6,0.5,1.2,1.2,1.2h27.1c0.6,0,1.2-0.5,1.2-1.2V34.8
+                                                    c0-0.6-0.5-1.2-1.2-1.2H38.7z"/>
+                                            </g>
+                                            <g>
+                                                <rect x="19.9" y="33" fill="#00A94D" width="12.9" height="1.8"/>
+                                            </g>
+                                            <g>
+                                                <rect x="19.9" y="39.1" fill="#00A94D" width="12.9" height="1.8"/>
+                                            </g>
+                                            <g>
+                                                <rect x="19.9" y="51.3" fill="#00A94D" width="12.9" height="1.8"/>
+                                            </g>
+                                            <g>
+                                                <rect x="19.9" y="45.2" fill="#00A94D" width="12.9" height="1.8"/>
+                                            </g>
+                                            <g>
+                                                <rect x="19.9" y="57.3" fill="#00A94D" width="12.9" height="1.8"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="title-option">
+                                Manual do gerenciador web
+                            </span>
+                            <span class="title-option m">
+                                Gerenciador web
+                            </span>
+                        </a>
+                    </li>
+
+                    <li id="op3" class="nav-option bg3">
+                        <a href="manualOpeRamal_pt-BR.html">
+                            <div class="ico-option">
+                                <?xml version="1.0" encoding="utf-8"?>
+                                <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" x="0px" y="0px"
+                                     viewBox="0 0 88 88" style="enable-background:new 0 0 88 88;" xml:space="preserve">
+                                    <g>
+                                        <path fill="#00A94D" d="M44,1C20.3,1,1,20.3,1,44c0,23.7,19.3,43,43,43c23.8,0,43-19.3,43-43C87,20.3,67.7,1,44,1z M44,83.4
+                                            C22.2,83.4,4.6,65.8,4.6,44C4.6,22.2,22.2,4.6,44,4.6c21.8,0,39.4,17.6,39.4,39.4C83.4,65.8,65.8,83.4,44,83.4z"/>
+                                        <g>
+                                            <g>
+                                                <path fill="#00A94D" d="M61.5,35.4H43.8c-1,0-1.7-0.8-1.7-1.7v-9.5c0-1,0.8-1.7,1.7-1.7h17.7c1,0,1.7,0.8,1.7,1.7v9.5
+                                                    C63.2,34.6,62.4,35.4,61.5,35.4z M43.8,23.7c-0.2,0-0.4,0.2-0.4,0.5v9.5c0,0.2,0.2,0.4,0.4,0.4h17.7c0.2,0,0.4-0.2,0.4-0.4v-9.5
+                                                    c0-0.2-0.2-0.5-0.4-0.5H43.8z"/>
+                                            </g>
+                                            <path fill="#00A94D" d="M68.5,20L68.5,20c-0.1-1.1-0.9-1.9-1.9-1.9H38.8c-1.1,0-1.9,0.8-2,1.9l0,3.7h-1.1l0-1.7
+                                                c0-0.9-0.6-1.6-1.5-1.7c-2.7-0.3-6.9-0.3-9.8,0c-0.8,0.2-1.4,0.9-1.3,1.8v1.6h-1.7c-1.1,0-1.9,0.8-1.9,1.9l0,42.3
+                                                c0.1,1.1,0.8,1.9,1.9,2h45.2c1,0,1.8-0.8,1.9-2L68.5,20z M25.4,22.5c2.5-0.2,5.8-0.2,8.1,0l0,40.6c-1.3,0.3-2.7,0.5-4,0.5
+                                                c-1.3,0-2.7-0.2-4-0.5V23.7h0V22.5z M21.8,67.6l0-41.5h1.2l0,17v20.5c0,0.9,0.6,1.6,1.4,1.7c1.6,0.4,3.3,0.7,5,0.7c0,0,0,0,0,0
+                                                c1.7,0,3.3-0.2,5-0.7c0.8-0.2,1.3-0.8,1.3-1.7l0-37.5h3.3l0-5.6h27.1l0,47.2L21.8,67.6z"/>
+                                            <g>
+                                                <path fill="#00A94D" d="M43.5,44.1h4c0.4,0,0.7,0.3,0.7,0.7v2.1c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C42.8,44.4,43.1,44.1,43.5,44.1L43.5,44.1z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M43.3,38h4.3c0.3,0,0.5,0.2,0.5,0.5V40c0,0.3-0.2,0.5-0.5,0.5h-4.3c-0.3,0-0.5-0.2-0.5-0.5v-1.5
+                                                    C42.8,38.2,43.1,38,43.3,38L43.3,38z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M43.5,49.5h4c0.4,0,0.7,0.3,0.7,0.7v2.1c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C42.8,49.8,43.1,49.5,43.5,49.5L43.5,49.5z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M43.5,54.9h4c0.4,0,0.7,0.3,0.7,0.7v2.1c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C42.8,55.2,43.1,54.9,43.5,54.9L43.5,54.9z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M43.5,60.2h4c0.4,0,0.7,0.3,0.7,0.7V63c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C42.8,60.5,43.1,60.2,43.5,60.2L43.5,60.2z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M50.7,44.1h4c0.4,0,0.7,0.3,0.7,0.7v2.1c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C50,44.4,50.3,44.1,50.7,44.1L50.7,44.1z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M50.5,38h4.3c0.3,0,0.5,0.2,0.5,0.5V40c0,0.3-0.2,0.5-0.5,0.5h-4.3c-0.3,0-0.5-0.2-0.5-0.5v-1.5
+                                                    C50,38.2,50.2,38,50.5,38L50.5,38z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M50.7,49.5h4c0.4,0,0.7,0.3,0.7,0.7v2.1c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C50,49.8,50.3,49.5,50.7,49.5L50.7,49.5z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M50.7,54.9h4c0.4,0,0.7,0.3,0.7,0.7v2.1c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C50,55.2,50.3,54.9,50.7,54.9L50.7,54.9z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M50.7,60.2h4c0.4,0,0.7,0.3,0.7,0.7V63c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C50,60.5,50.3,60.2,50.7,60.2L50.7,60.2z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M57.8,44.1h4c0.4,0,0.7,0.3,0.7,0.7v2.1c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C57.2,44.4,57.5,44.1,57.8,44.1L57.8,44.1z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M57.6,38H62c0.3,0,0.5,0.2,0.5,0.5V40c0,0.3-0.2,0.5-0.5,0.5h-4.3c-0.3,0-0.5-0.2-0.5-0.5v-1.5
+                                                    C57.2,38.2,57.4,38,57.6,38L57.6,38z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M57.8,49.5h4c0.4,0,0.7,0.3,0.7,0.7v2.1c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C57.2,49.8,57.5,49.5,57.8,49.5L57.8,49.5z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M57.8,54.9h4c0.4,0,0.7,0.3,0.7,0.7v2.1c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C57.2,55.2,57.5,54.9,57.8,54.9L57.8,54.9z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M57.8,60.2h4c0.4,0,0.7,0.3,0.7,0.7V63c0,0.4-0.3,0.7-0.7,0.7h-4c-0.4,0-0.7-0.3-0.7-0.7v-2.1
+                                                    C57.2,60.5,57.5,60.2,57.8,60.2L57.8,60.2z"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="title-option">
+                                Manual de operações com ramais
+                            </span>
+                            <span class="title-option m">
+                                Operações com ramais
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container" style="max-width: 1280px">
+            <div class="row">
+                <div class="col-md-3 scrollspy" style="top: 150px">
+                    <ul id="nav" class="nav hidden-xs hidden-sm" data-spy="affix" style="top: 150px;">
+                        <li><a href="#apresentacao">APRESENTAÇÃO</a></li>
+                        <li><a href="#cuidSeg">CUIDADOS E SEGURANÇA</a></li>
+                        <li><a href="#indice">ÍNDICE</a></li>
+                        <li><a href="#pdf">EXPORTAR PARA PDF</a></li>
+                        <li><a href="#espTec">ESPECIFICAÇÕES TÉCNICAS</a></li>
+                        <li><a href="#produto">PRODUTO</a>
+                            <ul class="nav">
+                                <li><a href="#u2000">UnniTI 2000</a></li>
+                                <li><a href="#u3000">UnniTI 3000</a></li>
+                                <li><a href="#protEle">Proteções elétricas</a></li>
+                                <li><a href="#numRam">Numeração de ramal</a></li>
+                                <li><a href="#capRamTro">Capacidade de ramais e troncos</a></li>
+                                <li><a href="#qtdMaxPla">Quantidade máxima de placas</a></li>
+                                <li><a href="#ramAcoTro">Ramais acoplados aos troncos analógicos na falta de energia elétrica</a></li>
+                                <li><a href="#cpu">CPU</a></li>
+                                <li><a href="#ramAna">Ramal analógico</a></li>
+                                <li><a href="#ramDig">Ramal digital</a></li>
+                                <li><a href="#ramMis">Ramal misto</a></li>
+                                <li><a href="#troAna">Tronco analógico</a></li>
+                                <li><a href="#conFiosTroAna">Conexão dos fios nos conectores RJ45 dos troncos analógicos e dos ramais</a></li>
+                                <li><a href="#troDig1E1">Tronco digital 1E1</a></li>
+                                <li><a href="#troDig2E1">Tronco digital 2E1</a></li>
+                                <li><a href="#conLinkE1">Conexão dos links 1E1 e 2E1</a></li>
+                                <li><a href="#troGSM">Tronco GSM/3G</a></li>
+                                <li><a href="#expGSM">Expansão GSM/3G</a></li>
+                                <li><a href="#antTroExpGSM">Antena para tronco e expansão GSM/3G</a></li>
+                                <li><a href="#instalacao">Instalação das UnniTIs 2000 e 3000</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#opeBasica">OPERAÇÃO BÁSICA</a>
+                            <ul class="nav">
+                                <li><a href="#aceGerWeb">Acessar o gerenciador web</a></li>
+                                <li><a href="#reaCha">Realizar chamadas</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#duvFreq">DÚVIDAS FREQUENTES</a></li>
+                        <li><a href="#termoGarantia">TERMO DE GARANTIA</a></li>
+                        <li><a href="#faleCom">FALE COM A GENTE</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <section id="capa" class="capa">
+                        <div class="div-logo-capa">
+                            <img src="../res/img/intelbras_marca.svg" class="logo-capa">
+                        </div>
+                        <hr class="divider">
+                        <div class="div-titulo-capa">
+                            <h1>Guia do usuário</h1>
+                            <h3>UnniTI 2000/3000</h3>
+                        </div>
+                    </section>
+
+                    <section id="apresentacao" class="apresentacao">
+                        <img src="../res/img/intelbras_marca.svg" id="logoIntelbras" class="logo-apresentacao">
+                        <p class="versao-manual">Versão deste manual: 18.08.31</p>
+                        <h3>UnniTI 2000/3000</h3>
+                        <h3>Central telefônica</h3>
+                        <p>Parabéns, você acaba de adquirir um produto com a qualidade e segurança Intelbras.</p>
+                        <p>A central telefônica UnniTI é uma solução para integração de redes de voz e dados, ideal para pequenas e médias empresas. Também exerce a função de gateway para diversos tipos de tecnologias: IP, analógico, digital e GSM/3G, podendo interligar duas ou mais redes e permitindo a realização de chamadas através delas. É uma plataforma incrementável, ou seja, pode-se aumentar o número de acessos através de suas interfaces: troncos IPs (SIP 2.0), digitais (E1 - R2/MFC-5C e RDSI-PRI), analógicos e GSM/3G, ramais IP, analógicos e digitais. Possui diversos serviços e facilidades para maior comodidade na comunicação. A central possui os modelos UnniTI 2000 e 3000 para ser instalados em racks, paredes ou superfícies lisas. Em rack de 19” ocupa uma altura de 2 U (UnniTI 2000) e 3 U (UnniTI 3000). Este guia irá auxiliá-lo na instalação e no acesso às configurações do produto.</p>
+                    </section>
+
+                    <section id="cuidSeg" style="border-bottom: none">
+                        <h1>Cuidados e segurança</h1>
+
+                        <p><strong>Atenção:</strong> somente técnicos treinados pela Intelbras estão autorizados a instalar e configurar o PABX, bem como abrir a caixa, conectar e manusear suas interfaces.
+                        <br>» Leia cuidadosamente todas as informações sobre o equipamento. Siga todas as informações de segurança.
+                        <br>» Consultar sempre um superior ou responsável imediato antes de iniciar o trabalho, informando os procedimentos necessários para realizar o serviço solicitado e as precauções de segurança necessárias.
+                        <br>» Desligar a alimentação do sistema durante os serviços de montagem ou retirada das placas.
+                        <br>» Conectar o condutor de aterramento no sistema envolvido antes de iniciar. Nunca operar o equipamento com o condutor de aterramento desconectado.
+                        <br>Para evitar danos eletrostáticos, observe as seguintes precauções:
+                        <br>» Esteja sempre adequadamente aterrado ao tocar na placa ou em algum componente eletrônico, utilize uma pulseira antiestática ou similar.
+                        <br>» O transporte e o armazenamento devem ser somente em embalagens à prova de eletricidade estática.
+                        <br>» Coloque a placa sobre uma superfície aterrada ao retirá-la da embalagem.
+                        <br>» Evite tocar nos pinos dos circuitos integrados ou condutores elétricos.
+                        <br><strong>Atenção:</strong> a eletricidade estática pode danificar os componentes eletrônicos da placa. Esse tipo de dano pode ser irreversível ou reduzir a expectativa de vida útil do dispositivo.
+
+                        <p><strong>Proteção e segurança de dados</strong>
+                        <br> <i>Tratamento de dados pessoais</i>
+                        <br> Este sistema utiliza e processa dados pessoais (senhas, registro detalhado de chamadas, endereços de rede e registro dos
+                            dados de clientes, por exemplo).
+                        <br> Observe as leis locais relativas à proteção e uso de tais dados e as regulamentações que prevalecem no país.
+                        <br> O objetivo da legislação de proteção de dados é evitar infrações nos direitos individuais de privacidade baseadas no mau
+                            uso dos dados pessoais.
+                        <br> Ao proteger os dados contra o mau uso durante as etapas do processamento, a legislação de proteção de dados também
+                            protege os interesses próprios e de terceiros.
+
+                        <p><strong>Diretrizes que se aplicam aos colaboradores da Intelbras</strong>
+                        <br> Os funcionários da Intelbras estão sujeitos a práticas de comércio seguro e confidencialidade de dados sob os termos dos
+                            procedimentos de trabalho da companhia.
+                        <br> É imperativo que as regras a seguir sejam observadas para assegurar que as provisões estatutárias relacionadas a serviços
+                            (sejam eles serviços internos ou administração e manutenção remotas) sejam estritamente seguidas. Isto preserva os
+                            interesses do cliente e oferece proteção pessoal adicional.
+                        
+                        <br> <i>Diretrizes que controlam o tratamento de dados</i>
+                        <p style="padding-left: 20px;"> 
+                             » Assegure que apenas pessoas autorizadas tenham acesso aos dados de clientes.
+                            <br> » Use as facilidades de atribuição de senhas, sem permitir qualquer exceção. Jamais informe senhas para pessoas não autorizadas.
+                            <br> » Assegure que nenhuma pessoa não autorizada tenha como processar (armazenar, alterar, transmitir, desabilitar ou apagar)
+                            ou usar dados de clientes.
+                            <br> » Evite que pessoas não autorizadas tenham acesso aos meios de dados, por exemplo, discos de backup ou impressões
+                            de protocolos.
+                            <br> » Assegure que os meios de dados que não são mais necessários sejam completamente destruídos e que documentos não
+                            sejam armazenados ou deixados em locais geralmente acessíveis.
+                        </p>
+
+                        <br> <i> Uso indevido e invasão de hackers</i>
+                        <br> O PABX é um equipamento que permite a interligação e o controle total das ligações internas e externas.
+                        <br> Como todo PABX possui um sistema “exposto” ao mundo externo, é importante cuidar da segurança, para evitar possíveis
+                            invasões ao sistema por hackers e prejuízos à empresa. A invasão pode ocorrer quando pessoas mal-intencionadas invadem
+                            o PABX devido a falhas na proteção e configuração dos recursos.
+                        <br> O acesso por IP válido na internet que pode ser facilmente rastreado e invadido. Os acessos com maior volume de invasão
+                            são: porta de manutenção remota (IP válido) do PABX; entroncamento VOIP via internet utilizado para comunicação entre
+                            filiais; terminais com facilidades que utilizam a internet e IP válido; entre outros serviços associados.
+                        <br> Os hackers e as operadoras clandestinas utilizam programas que geram repetidas chamadas para todos os ramais de PABX
+                            suscetível à invasão. Assim que descobrem algum ramal desprotegido, que complete chamadas de longa distância (DDD
+                            ou DDI) ou um IP válido na internet, o ataque é feito.
+                        <br> Saiba como prevenir invasões e proteger o PABX da sua empresa:
+                        <p style="padding-left: 20px;"> 
+                            » Crie uma política de segurança e passe para todos os usuários, enfatizando a sua importância.
+                            <br> » Utilize mecanismo de controle de discagem externa, como o Código de Conta do PABX.
+                            <br> » Não permita que a configuração do DISA autorize a realização de chamadas sem o uso de senha e procure sempre
+                            associar a senha ao ramal físico do usuário, facilitando a identificação da origem das chamadas.
+                            <br> » Restrinja o acesso remoto de Operações e Manutenção Técnica somente a pessoas autorizadas. Compartilhe com elas a
+                            responsabilidade de manter em sigilo as senhas do sistema.
+                            <br> » Consulte periodicamente a mantenedora e/ou o fabricante sobre atualizações de software e pacotes de segurança.
+                            <br> » Oriente as telefonistas/atendentes da empresa a não completar chamadas recebidas externamente para números externos.
+                            <br> » Mantenha um back-up de dados do PABX atualizado com o menor intervalo de tempo possível e/ou sempre que houver
+                            alteração de algum parâmetro no equipamento.
+                            <br> » Determine restrições de destinos por ramais, conforme o perfil do usuário (local, móvel, DDD e DDI).
+                            <br> » Restrinja a utilização de chamadas tronco-tronco (trata-se de chamadas procedentes de um tronco externo, pedindo
+                            autorização para realização de chamada em outro tronco externo).
+                            <br> » Permita o recebimento de chamada a cobrar apenas para ramais estratégicos. Se possível bloqueie esse tipo de chamada
+                            para os ramais com correio de voz habilitado, DISA, etc.
+                            <br> » Acompanhe os destinos das chamadas nacionais e internacionais, o tempo médio dessas chamadas e as ocorrências de
+                            ligações a cobrar, comparando com o perfil histórico dessas chamadas.
+                            <br> » Restrinja a facilidade de Siga-me externo para os ramais que realmente necessitam.
+                            <br> » Utilize redes privadas sem acesso à internet para registro de ramais remotos ou conexão com VOIP.
+                            <br> » Garanta a distância entre a rede de telefonia e a rede de acesso à internet. Separe-as fisicamente ou sobre “VLANs” (rede
+                            local virtual) corretamente configuradas. Observe a questão do “VLAN Hopping” (método de atacar recursos de rede em
+                            uma VLAN) e também do “Voip Hopper” (framework que também executa testes para avaliar a insegurança de VLANs).
+                            <br> » Utilize firewalls, NAT, IPS e restrição de portas na autenticação de ramais, assim como restrição de acesso às configurações
+                            dos Terminais IPs, Softfones e ATAs.
+                            <br> » Cuidado com o redirecionamento de portas, como a liberação do PABX para a internet.
+                            <br> » Utilize redes distintas e separadas para telefonia e para dados, inclusive com a utilização de “Access Point” (dispositivo
+                            em uma rede sem fio que realiza a interconexão entre todos os dispositivos móveis) distinto para solução wi-fi. Se possível,
+                            separe as redes efetivamente, de forma física, e não apenas utilizando “subnets” (divida uma rede em várias partes,
+                            aumentando assim o número de redes e diminuindo o número de hosts) distintas.
+                            <br> » Utilize sistema de provisioning para configurar os ATAs/ramais IPs ativos em rede privada. Caso o ATA/ramal IP esteja
+                            exposto na internet, a configuração deve ser individual, evitando a exposição da senha de conta SIP.
+                            <br> » Utilize sempre IPS (Intrusion Prevention System) para garantir a segurança e aplique quarentena em endereços IP com
+                            números excessivos de tentativa de logon.
+                            <br> » Não exponha os ramais (SIP) na internet (fixa ou móvel). Se o fizer, procure utilizar tunelamento VPN com autenticação
+                            de senha para inibir a exposição do endereçamento IP.
+                            <br> » Programe a Sinalização de Desconexão Forçada por tempo. Recomenda-se desconectar ligações com duração acima de 2 horas.
+                        </p>
+                        
+                        <br> <i> Senhas de proteção </i>
+                        <br> A senha serve para autenticar um usuário. Qualquer pessoa que possua a senha de programação do PABX terá acesso às
+                            suas facilidades e poderá utilizá-la para outros fins.
+                        <br> Para maior segurança, limite o acesso à senha de programação do PABX e siga as dicas abaixo:
+                        <p style="padding-left: 20px;"> 
+                            » Nunca use senhas de fácil memorização, como o número do ramal, senhas sequenciais, datas e/ou nomes conhecidos.
+                            <br> » Nunca utilize a senha-padrão do sistema, troque-a sempre.
+                            <br> » Procure usar senhas até mesmo em ramais de fax e salas de reunião, evitando a invasão interna desses ramais.
+                            <br> » Altere as senhas sempre que ocorrer troca de pessoal responsável pela manutenção e operação dos equipamentos PABX.
+                            <br> » Modifique as senhas dos ATAs, Terminais IPs e Softphones, mesmo que esses tenham sido fornecidos por provedores VOIP.
+                            <br> » Faça a troca de senhas periodicamente.
+                        </p>
+                        
+                        <br> <i> Considerações finais </i>
+                        <br> Segurança é um item muito importante em ambientes com PABX instalado. Por isso, faça com que sua empresa utilize os
+                            mecanismos de proteção e guias com as “Melhores Práticas” dos próprios sistemas.
+                        <br> Tanto o PABX convencional quanto o VOIP podem ser muito seguros se utilizados em uma rede privada. Fique atento aos
+                            pequenos detalhes da implantação e sempre avalie como o invasor/fraudador pode usufruir o ambiente de comunicação
+                            de sua empresa, utilizando ferramentas para impedi-lo.
+                        
+                        <br> <i> Proteção de programação </i>
+                        <br> Todas as programações de configuração da UnniTI e de usuário são armazenadas no HD e não são perdidas em caso
+                            de falta de energia.
+
+
+                    </section>
+
+                    <section id="indice" style="border-bottom: none;">
+                        <h1>Índice</h1>
+                        <p><strong><a href="#espTec"> Especificações técnicas</a></strong></p>
+
+                        <p><strong><a href="#produto">Produto</a></strong></p>
+
+                        <div style="padding-left: 20px; padding-bottom: 20px">
+                            <a href="#u2000">UnniTI 2000</a>
+                            <br><a href="#u3000">UnniTI 3000</a>
+                            <br><a href="#protEle">Proteções elétricas</a>
+                            <br><a href="#numRam">Numeração de ramal</a>
+                            <br><a href="#capRamTro">Capacidade de ramais e troncos</a>
+                            <br><a href="#qtdMaxPla">Quantidade máxima de placas</a>
+                            <br><a href="#ramAcoTro">Ramais acoplados aos troncos analógicos na falta de energia elétrica</a>
+                            <br><a href="#cpu">CPU</a>
+                            <br><a href="#ramAna">Ramal analógico</a>
+                            <br><a href="#ramMis">Ramal misto</a>
+                            <br><a href="#troAna">Tronco analógico</a>
+                            <br><a href="#conFiosTroAna">Conexão dos fios nos conectores RJ45 dos troncos analógicos e dos ramais</a>
+                            <br><a href="#troDig1E1">Tronco digital 1E1</a>
+                            <br><a href="#troDig2E1">Tronco digital 2E1</a>
+                            <br><a href="#conLinkE1">Conexão dos links 1E1 e 2E1</a>
+                            <br><a href="#troGSM">Tronco GSM/3G</a>
+                            <br><a href="#expGSM">Expansão GSM/3G</a>
+                            <br><a href="#antTroExpGSM">Antena para tronco e expansão GSM/3G</a>
+                            <br><a href="#instalacao">Instalação das UnniTIs 2000 e 3000</a>
+                        </div>
+
+                        <p><strong><a href="#opeBasica">Operação básica</a></strong></p>
+                        <div style="padding-left: 20px; padding-bottom: 20px">
+                            <a href="#aceGerWeb">Acessar o gerenciador</a>
+                            <br><a href="#reaCha">Realizar chamadas</a>
+                        </div>
+
+                        <p><strong><a href="#duvFreq">Dúvidas frequentes</a></strong></p>
+                        <p><strong><a href="#termoGarantia">Termo de garantia</a></strong></p>
+                    </section>
+
+                    <section id="pdf">
+                        <h1>Exportar para PDF</h1>
+                        <p>Para exportar este manual para o formato de arquivo PDF, utilize o recurso de impressão que navegadores como Google Chrome<sup>®</sup> e Mozilla Firefox<sup>®</sup> possuem. Para acessá-lo, pressione as teclas <em>CTRL + P</em> ou <a href="#" onClick="window.print()">clique aqui</a>. Se preferir, utilize o menu do navegador, acessando a aba <em>Imprimir</em>, que geralmente fica no canto superior direito da tela. Na tela que será aberta, execute os passos a seguir, de acordo com o navegador:</p>
+                        <p><em>Google Chrome</em><sup>®</sup>: na tela de impressão, no campo <em>Destino</em>, clique em <em>Alterar</em>, selecione a opção <em>Salvar como PDF</em> na seção <em>Destinos locais</em> e clique em <em>Salvar</em>. Será aberta a tela do sistema operacional solicitando que seja definido o nome e onde deverá ser salvo o arquivo.</p>
+                        <p><em>Mozilla Firefox</em><sup>®</sup>: na tela de impressão, clique em <em>Imprimir</em>, na aba <em>Geral</em>, selecione a opção <em>Imprimir para arquivo</em>, no campo <em>Arquivo</em>, defina o nome e o local onde deverá ser salvo o arquivo, selecione <em>PDF</em> como formato de saída e clique em <em>Imprimir</em>.</p>
+                    </section>
+
+                    <section id="espTec" style="border-bottom: none">
+                        <h1>Especificações técnicas</h1>
+                        <p></p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 210px">Item</th>
+                                    <th>Descrição</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="7">CPU, interfaces I/O</td>
+                                    <td>1 porta LAN e 1 WAN UTP Fast Ethernet RJ45 10/100 Mbps</td>
+                                </tr>
+                                <tr>
+                                    <td>2 portas USB tipo A - compatível com USB 1.0/2.0</td>
+                                </tr>
+                                <tr>
+                                    <td>2 portas P2 (AUX1 e AUX2):</td>
+                                </tr>
+                                <tr>
+                                    <td>» AUX1 somente música externa.</td>
+                                </tr>
+                                <tr>
+                                    <td>» AUX2 música externa ou busca pessoa.</td>
+                                </tr>
+                                <tr>
+                                    <td>1 porta para microcartão SD</td>
+                                </tr>
+                                <tr>
+                                    <td>2 LEDs, um para indicar status do equipamento e outro do codec</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="5">Interface E1</td>
+                                    <td>Protocolos de comunicação R2/MFC-5C e RDSI-PRI</td>
+                                </tr>
+                                <tr>
+                                    <td>1E1 - 1 conector RJ45 com 1 LED para indicar status do link</td>
+                                </tr>
+                                <tr>
+                                    <td>2E1 - 2 conectores RJ45, ambos com 1 LED para indicar status do link</td>
+                                </tr>
+                                <tr>
+                                    <td>Impedância de entrada e saída: 120 Ω</td>
+                                </tr>
+                                <tr>
+                                    <td>Codificação do sinal de linha: HDB3</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="3">Interface GSM</td>
+                                    <td>8 portas GSM - 4 na placa GSM (base) e 4 na expansão (placa adicional)</td>
+                                </tr>
+                                <tr>
+                                    <td>Frequências de operação: 850, 900, 1800 e 1900 MHz</td>
+                                </tr>
+                                <tr>
+                                    <td>2 conectores SMA fêmea para conexão de antena externa - 1 na base e 1 na expansão (placa adicional)</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="3">Interface GSM/3G</td>
+                                    <td>8 portas GSM/WCDMA - 4 na placa GSM/WCDMA (base) e 4 na expansão (placa adicional)</td>
+                                </tr>
+                                <tr>
+                                    <td>Frequências de operação: 850, 900, 1800, 1900 e 2100 MHz</td>
+                                </tr>
+                                <tr>
+                                    <td>2 conectores SMA fêmea para conexão de antena externa - 1 na base e 1 na expansão (placa adicional)</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="6">Antena GSM</td>
+                                    <td>Miniantena de base magnética</td>
+                                </tr>
+                                <tr>
+                                    <td>Frequências de operação: 850, 900, 1800, 1900 e 2100 MHz</td>
+                                </tr>
+                                <tr>
+                                    <td>Ganho de 3 a 5 dBi</td>
+                                </tr>
+                                <tr>
+                                    <td>Cabo RG174 de 3 metros</td>
+                                </tr>
+                                <tr>
+                                    <td>Impedância da antena: 50 Ω</td>
+                                </tr>
+                                <!-- add -->
+                                <tr>
+                                    <td>Sensibilidade do sinal: acima de -75 dBm (excelente); entre -76 e -90 dBm (bom); entre -91 e -102 dBm (ruim); abaixo de -102 dBm (sem sinal).</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="5">Interface ramal analógico</td>
+                                    <td>4 conectores RJ45 - 4 ramais por conector</td>
+                                </tr>
+                                <tr>
+                                    <td>» Corrente média no ramal: 22 mA.</td>
+                                </tr>
+                                <tr>
+                                    <td>» Máxima corrente fornecida pela fonte aos ramais: 2,6 A.</td>
+                                </tr>
+                                <tr>
+                                    <td>Alimentação do ramal: 36 V</td>
+                                </tr>
+                                <tr>
+                                    <td>Alcance das linhas: 1100 ohms (incluindo o telefone)</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="6">Interface ramal digital</td>
+                                    <td>3 conectores RJ45 - 4 ramais por conector</td>
+                                </tr>
+                                <tr>
+                                    <td>Corrente média do ramal:</td>
+                                </tr>
+                                <tr>
+                                    <td>» Fora do gancho 40 mA.</td>
+                                </tr>
+                                <tr>
+                                    <td>» No gancho 28 mA.</td>
+                                </tr>
+                                <tr>
+                                    <td>Alimentação do ramal: 36 V</td>
+                                </tr>
+                                <tr>
+                                    <td>Modelo do terminal compatível: TI 5000</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Interface ramal misto</td>
+                                    <td>4 conectores RJ45 – 4 ramais por conector: 1 conector ramal digital, 3 conectores ramais analógicos</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="2">Dimensões (L × A × P)</td>
+                                    <td>UnniTI 2000 (2 U, 19”): 440 × 87,7 × 363,5 mm</td>
+                                </tr>
+
+                                <tr>
+                                    <td>UnniTI 3000 (3 U, 19”): 440 × 131,7 × 363,5 mm</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="2">Peso</td>
+                                    <td>UnniTI 2000 - Peso bruto: 7,378 kg / Peso líquido: 6,13 kg</td>
+                                </tr>
+                                <tr>
+                                    <td>UnniTI 3000 - Peso bruto: 8,7 Kg / Peso líquido: 7,18 kg</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="">Temperatura de operação</td>
+                                    <td>0°C a 45°C</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+
+                    <section id="produto">
+                        <h1>Produto</h1>
+
+                        <section id="u2000">
+                            <h2>UnniTI 2000</h2>
+                            <p>A UnniTI 2000 é composta por uma CPU com tecnologia de comunicação IP embarcada e mais 6 slots para conexão das interfaces: ramais analógicos, troncos analógicos, ramais digitais, troncos digitais (E1), troncos GSM/3G e ramais mistos (analógico e digital). A interface E1 deverá ser conectada somente no slot 1, as demais interfaces em qualquer posição. A chave liga-desliga e o conector de alimentação (faixa de operação: 90 ~ 240 Vac) estão na parte posterior do equipamento. As figuras que seguem mostram as vistas frontal e posterior do produto.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/2U_vistaFrontal.JPG">
+                                <figcaption>Vista frontal</figcaption>
+                            </figure>
+
+                            <figure>
+                                <img src="../res/img/hw/2U_vistaPosterior.JPG">
+                                <figcaption>Vista posterior</figcaption>
+                            </figure>
+
+                            <p>Se a UnniTI 2000 estiver com o padrão de fábrica, na primeira vez que ela for ligada com uma ou mais placas conectadas, elas serão reconhecidas automaticamente. Exemplo: foi conectada uma placa E1 na posição 1 e uma placa ramal analógico na posição 2, ao ser ligada a primeira vez com essas placas e com o padrão de fábrica, a central reconhecerá automaticamente essas interfaces, E1 posição 1 e ramal analógico posição 2, depois disso, se mais alguma placa for adicionada, será necessário configurá-la no slot ao qual foi conectada. Todas as programações de configuração da central e de usuário ficam armazenadas em memória flash e não são perdidas na falta de energia.</p>
+                        </section>
+
+                        <section id="u3000">
+                            <h2>UnniTI 3000</h2>
+                            <p>A UnniTI 3000 é composta por uma CPU com tecnologia de comunicação IP embarcada e mais 10 slots para conexão das interfaces: ramais analógicos, troncos analógicos, ramais digitais, troncos digitais (E1), troncos GSM/3G e ramais mistos (analógico e digital). A interface E1 deverá ser conectada somente no slot 1, as demais interfaces em qualquer posição. Na parte posterior do produto encontra-se o conector de alimentação (faixa de operação: 90 ~ 240 Vac) e a chave liga-desliga. As figuras que seguem mostram as vistas frontal e posterior do produto.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/3U_vistaFrontal.JPG">
+                                <figcaption>Vista frontal</figcaption>
+                            </figure>
+
+                            <figure>
+                                <img src="../res/img/hw/3U_vistaPosterior.JPG">
+                                <figcaption>Vista posterior</figcaption>
+                            </figure>
+
+                            <p>Se a UnniTI 3000 estiver com o padrão de fábrica, na primeira vez que ela for ligada com uma ou mais placas conectadas, elas serão reconhecidas automaticamente. Exemplo: foi conectada uma placa E1 na posição 1 e uma placa ramal analógico na posição 2, ao ser ligada a primeira vez com essas placas e com o padrão de fábrica, a central reconhecerá automaticamente essas interfaces, E1 posição 1 e ramal analógico posição 2, depois disso, se mais alguma placa for adicionada, será necessário configurá-la no slot ao qual foi conectada. Todas as programações de configuração da central e de usuário ficam armazenadas em memória flash e não são perdidas na falta de energia.</p>
+                        </section>
+
+                        <section id="protEle">
+                            <h2>Proteções elétricas</h2>
+                            <p>A fonte de alimentação possui proteção contra transientes e oscilações na rede de energia elétrica. Os ramais e troncos possuem proteções contra transientes elétricos.</p>
+                        </section>
+
+                        <section id="numRam">
+                            <h2>Numeração de ramal</h2>
+                            <p>As numerações por padrão de fábrica são criadas a partir de 2000 até a quantidade de ramais configurados na UnniTI. Ex.: se houver uma placa de ramal configurada, a numeração-padrão de fábrica será de 2000 até 2015. Essa numeração pode ser alterada.</p>
+                        </section>
+
+                        <section id="capRamTro">
+                            <h2>Capacidade de ramais e troncos</h2>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Tipo de placa/interface</th>
+                                        <th>UnniTI 2000</th>
+                                        <th>UnniTI 3000</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ramais analógicos</td>
+                                        <td>Até 96 ramais</td>
+                                        <td>Até 160 ramais</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ramais digitais</td>
+                                        <td>Até 48 ramais<sup>1</sup></td>
+                                        <td>Até 48 ramais<sup>1</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ramais mistos</td>
+                                        <td>Até 24 ramais digitais 1 e 72 ramais analógicos</td>
+                                        <td>Até 40 ramais digitais 1 e 120 ramais analógicos</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ramais IP</td>
+                                        <td>Até 120 ramais<sup>2</sup></td>
+                                        <td>Até 120 ramais<sup>2</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Troncos analógicos</td>
+                                        <td>Até 24 troncos</td>
+                                        <td>Até 24 troncos</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Troncos digitais 1E1</td>
+                                        <td>Até 30 canais</td>
+                                        <td>Até 30 canais</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Troncos digitais 2E1</td>
+                                        <td>Até 60 canais</td>
+                                        <td>Até 60 canais</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Troncos GSM/3G</td>
+                                        <td>Até 24 chips</td>
+                                        <td>Até 24 chips</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Troncos IP</td>
+                                        <td>Até 60 troncos<sup>2</sup></td>
+                                        <td>Até 60 troncos<sup>2</sup></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p>
+                            <sup>1</sup>Modelo TI 5000.
+                            <br><sup>2</sup>Com placa codec 60.</p>
+                        </section>
+
+                        <section id="qtdMaxPla">
+                            <h2>Quantidade máxima de placas</h2>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Tipo de placa/interface</th>
+                                        <th>UnniTI 2000</th>
+                                        <th>UnniTI 3000</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ramais analógicos</td>
+                                        <td>6</td>
+                                        <td>10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ramais digitais</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ramais mistos</td>
+                                        <td>6</td>
+                                        <td>10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Troncos analógicos</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Troncos digitais 1E1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Troncos digitais 2E1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Troncos GSM/3G</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+
+                        <section id="ramAcoTro">
+                            <h2>Ramais acoplados aos troncos analógicos na falta de energia elétrica</h2>
+
+                            <p>Na falta de energia elétrica, algumas linhas analógicas são acopladas aos ramais analógicos, conforme tabela a seguir:</p>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Modelo</th>
+                                        <th>Ramal acoplado ao tronco na falta de energia</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>UnniTI 2000</td>
+                                        <td>Último ramal do slot 2 com o 1º tronco do slot 6 ou Último ramal do slot 6 com o 1º tronco do slot 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">UnniTI 3000</td>
+                                        <td>Último ramal do slot 2 com o 1º tronco do slot 8 ou Último ramal do slot 8 com o 1º tronco do slot 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Último ramal do slot 3 com o 1º tronco do slot 9 ou Último ramal do slot 9 com o 1º tronco do slot 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Último ramal do slot 4 com o 1º tronco do slot 10 ou Último ramal do slot 10 com o 1º tronco do slot 4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+
+                        <section id="cpu">
+                            <h2>CPU</h2>
+
+                            <p>A CPU é responsável por gerenciar as interfaces de comunicações da UnniTI e armazenar as configurações na memória interna dela. A CPU é a mesma para as UnniTIs 2000 e 3000 e possui as interfaces de conexões LAN, WAN, USB e dois conectores P2 (AUX1 e AUX2) na parte frontal e microcartão SD e USB na parte interna - é necessário remover a tampa do gabinete para acessá-las internamente. A figura a seguir mostra a parte frontal da CPU e as interfaces de conexões.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/CPU_vistaFrontal.JPG">
+                                <figcaption>Vista frontal CPU UnniTI</figcaption>
+                            </figure>
+
+                            <p>
+                            1. Conector RJ45 LAN.
+                            <br>2. Conector RJ45 WAN.
+                            <br>3. LED status da central.
+                            <br>4. LED codec VoIP.
+                            <br>5. Conector USB.
+                            <br>6. Conector P2 AUX1, música externa.
+                            <br>7. Conector P2 AUX2, busca pessoa ou música externa.
+                            </p>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Cadência LED status</th>
+                                        <th>Descrição</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Sempre aceso</td>
+                                        <td>Modo Recovery</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sempre apagado</td>
+                                        <td>Falha na central</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piscando muito rápido (15ms ON / 30ms OFF)</td>
+                                        <td>Inicializando</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piscando rápido (50ms ON / 50ms OFF)</td>
+                                        <td>Configurando</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piscando moderado (100ms ON / 100ms OFF)</td>
+                                        <td>Aguardando sistema<sup>1</sup></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piscando lento (300ms ON / 300ms OFF)</td>
+                                        <td>Central inicializada</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piscando muito lento (1000ms ON / 1000ms OFF)</td>
+                                        <td>Imagens da flash corrompidas</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piscando intermitente (500ms ON / 100ms OFF)</td>
+                                        <td>Tentativa de recuperação</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <!-- add -->
+                            <p><sup>1</sup> Caso o <em>LED</em> indique o status <em>Aguardando sistema</em> por mais de 10 minutos e não avance para o status <em>Central inicializada</em>, execute o procedimento descrito na seção <a href="">Dúvidas frequentes > Recuperar inicialização</a>.</p>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Cadência LED codec</th>
+                                        <th>Descrição</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Sempre aceso</td>
+                                        <td>Módulo detectado, mas não inicializado</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sempre apagado</td>
+                                        <td>Módulo não detectado</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piscando rápido (100ms ON / 100ms OFF)</td>
+                                        <td>Módulo inicializando</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piscando lento (300ms ON / 300ms OFF)</td>
+                                        <td>Módulo inicializado</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piscando intermitente (1400ms ON / 100ms OFF)</td>
+                                        <td>Falha de inicialização do módulo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p>A figura a seguir mostra a parte interna da placa CPU.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/CPU_vistaInterna.JPG">
+                                <figcaption>Vista interna CPU UnniTI</figcaption>
+                            </figure>
+
+                            <p>
+                            1. Conectores codec 60 (60 canais) ou codec ICIP 30 (10 canais), comunicação VoIP.
+                            <br>2. Conector microcartão SD.
+                            <br>3. Jumper recover.
+                            <br>4. Conector USB.
+                            <br>5. Chave de hardware.
+                            </p>
+
+                            <p>A interface LAN para comunicação com a rede local sai com o endereço-padrão de fábrica 10.0.0.2 e máscara 255.255.255.0, sendo que através dela é possível acessar as configurações e fazer as programações da UnniTI. A interface WAN para comunicação com a rede externa não é configurada de fábrica. Para configurá-la é necessário acessar o gerenciador web através da interface LAN e colocar o endereço IP desejado. Após configuração da WAN, a UnniTI poderá ser acessada através dessa interface também.</p>
+
+                            <p>O conector USB permite a conexão da chave de hardware, necessária para a liberação de licenças do produto e pode ser conectada tanto no conector USB externo quanto no interno. Para conectar a chave de hardware no conector USB interno, desligue a central, retire a placa CPU, conecte a chave de hardware, insira a placa CPU e ligue a central. O produto já acompanha a chave de hardware com licença mínima<sup>1</sup> de 1 ramal IP, 1 CSTA, 1 bilhetagem TCP, 2 DISA.</p>
+
+                            <p class="ale high"><sup>1</sup> Para aquisição de mais licenças, deve-se entrar em contato com o setor comercial. É necessário possuir o número do ID da chave e o número da nota fiscal.</p>
+
+                            <!-- add -->
+                            <p class="ale high">O conector USB externo será desabilitado se o <em>download</em> de arquivos de gravação via FTP estiver habilitado em <a href="manualGerWeb_pt-BR.html#acessoriosGC" target="_blank">Acessórios > Gravação de chamadas</a>.</p>
+
+                            <p>O conector microcartão SD fica localizado na parte interna da CPU. Para conectar o microcartão SD no conector, desligue a central, retire a placa CPU, conecte o microcartão SD, insira a placa CPU e ligue a central. Com o cartão inserido + a chave de hardware com as licenças, é possível ter acesso aos serviços de gravação de chamadas, mensagens DISA com subníveis e mensagens de correio de voz. O cartão deve ser microcartão SD do tipo SDHC classe 10 de <!-- add até 32 GB --> até 32 GB de um dos seguintes fabricantes: WD Purple<sup>®</sup>, Kingston<sup>®</sup>, SanDisk<sup>®</sup>, Transcend<sup>®</sup>, Toshiba<sup>®</sup>, Samsung<sup>®</sup>e Panasonic<sup>®</sup>. <!-- add -->Para cada 1 GB é possível armazenar cerca de 30 horas de gravações.</p>
+
+                            <p>Os conectores tipo P2, AUX1 e AUX2 são interfaces auxiliares para conexões de música externa e busca pessoa. Somente o AUX2 permite utilizar o serviço de busca pessoa.</p>
+
+                            <p>Os LEDs Status e Codec indicam a condição de funcionamento da UnniTI e da comunicação VoIP respectivamente.</p>
+
+                            <p>Nos conectores para codec VoIP pode-se conectar a placa codec ICIP 30 (10 canais) ou codec 60 (60 canais).</p>
+
+
+                            <figure class="inline">
+                                <img src="../res/img/hw/Codec30.JPG">
+                                <figcaption>Placa codec ICIP 30 (10 canais)</figcaption>
+                            </figure>
+
+                            <figure class="inline">
+                                <img src="../res/img/hw/Codec60.JPG">
+                                <figcaption>Placa codec 60 (60 canais)</figcaption>
+                            </figure>
+
+                            <p>O jumper recover permite fazer a recuperação do sistema quando necessário. Mais detalhes no manual disponível no site <a href="www.intelbras.com.br">www.intelbras.com.br</a>.</p>
+                        </section>
+
+                        <section id="ramAna">
+                            <h2>Ramal analógico</h2>
+                            <p>A placa ramal analógico é a mesma para a UnniTI 2000 e a 3000. Ela possui 4 conectores RJ45 para conexão dos telefones analógicos. Cada conector disponibiliza até 4 ramais, no total são 16 ramais analógicos, conforme mostra figura a seguir. Para conexão dos conectores RJ45, seguir orientação de acordo com a seção 2.12. Conexão dos fios nos conectores RJ45 dos troncos analógicos e dos ramais.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/RamalAnalogico.JPG">
+                                <figcaption>Vista frontal ramal analógico UnniTI</figcaption>
+                            </figure>
+
+                            <p>No item Instalação das placas nos gabinetes UnniTI 2000 e 3000, seção 2.19. Instalação das UnniTIs 2000 e 3000, é exibida a maneira correta para inserção da placa no gabinete.</p>
+                        </section>
+
+                        <!-- add -->
+                        <section id="ramDig">
+                            <h2>Ramal digital</h2>
+                            <p>A placa ramal digital é a mesma para a UnniTI 2000 e a 3000. Ela possui 3 conectores RJ45 para conexão dos telefones digitais. Cada conector disponibiliza até 4 ramais, no total são 12 ramais digitais, conforme mostra figura a seguir. Para conexão dos conectores RJ45, seguir orientação de acordo com a seção 2.12. Conexão dos fios nos conectores RJ45 dos troncos digitais e dos ramais.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/RamalDigital.JPG">
+                                <figcaption>Vista frontal ramal digital UnniTI</figcaption>
+                            </figure>
+
+                            <p>No item Instalação das placas nos gabinetes UnniTI 2000 e 3000, seção 2.19. Instalação das UnniTIs 2000 e 3000, é exibida a maneira correta para inserção da placa no gabinete.</p>
+                        </section>
+
+                        <section id="ramMis">
+                            <h2>Ramal misto</h2>
+                            <p>A placa ramal misto UnniTI é a mesma para a UnniTI 2000 e a 3000. Ela possui 4 conectores RJ45, o primeiro, de 1 a 4, para conexão dos ramais digitais (modelo compatível TI 5000) e mais três conectores, de 5 a 16, para a conexão dos telefones analógicos. Cada conector disponibiliza até 4 ramais, no total são 4 ramais digitais e 12 ramais analógicos, conforme mostra figura a seguir. Para conexão dos conectores RJ45, seguir orientação de acordo com a seção 2.12. Conexão dos fios nos conectores RJ45 dos troncos analógicos e dos ramais.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/RamalMisto.JPG">
+                                <figcaption>Vista frontal ramal misto UnniTI</figcaption>
+                            </figure>
+
+                            <p>No item Instalação das placas nos gabinetes UnniTI 2000 e 3000, seção 2.19. Instalação das UnniTIs 2000 e 3000, é exibida a maneira correta para inserção da placa no gabinete.</p>
+                        </section>
+
+                        <section id="troAna">
+                            <h2>Tronco analógico</h2>
+                            <p>A placa tronco analógico UnniTI é a mesma para a UnniTI 2000 e a 3000. Ela possui 2 conectores RJ45 para conexão das linhas telefônicas. Cada conector disponibiliza até 4 troncos, no total são 8 troncos analógicos, conforme mostra figura a seguir. Para conexão dos conectores RJ45, seguir orientação de acordo com a seção 2.12. Conexão dos fios nos conectores RJ45 dos troncos analógicos e dos ramais.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/TroncoAnalogico.JPG">
+                                <figcaption>Vista frontal tronco analógico UnniTI</figcaption>
+                            </figure>
+
+                            <p>No item Instalação das placas nos gabinetes UnniTI 2000 e 3000, seção 2.19. Instalação das UnniTIs 2000 e 3000, é exibida a maneira correta para instalação da placa no gabinete.</p>
+                        </section>
+
+                        <section id="conFiosTroAna">
+                            <h2>Conexão dos fios nos conectores RJ45 dos troncos analógicos e dos ramais</h2>
+
+                            <p>Os fios deverão ser crimpados no conector RJ45 conforme ordem indicada na figura a seguir, tanto nos ramais quanto nos troncos analógicos. <!-- add -->O padrão adotado é o T568A.</p>
+
+                            <figure class="inline">
+                                <img src="../res/img/hw/ConexaoFioRamais.JPG">
+                                <figcaption>Conexão dos fios no RJ45 para os ramais</figcaption>
+                            </figure>
+
+                            <figure class="inline">
+                                <img src="../res/img/hw/ConexaoFioTroncos.JPG">
+                                <figcaption>Conexão dos fios no RJ45 para os troncos</figcaption>
+                            </figure>
+
+                            <p>Fio utilizado:</p>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>AWG</th>
+                                        <th>Diâmetro do fio</th>
+                                        <th>Diâmetro do fio mais capa</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>24</td>
+                                        <td>0,5 mm</td>
+                                        <td>0,8 mm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+
+                        <section id="troDig1E1">
+                            <h2>Tronco digital 1E1</h2>
+                            <p>A placa tronco digital 1E1 é a mesma para a UnniTI 2000 3 e a 3000 e deve ser conectada somente no slot 1 de ambas as centrais. Ela possui 1 conector RJ45 para conexão do link 1 da 1E1 com o modem da operadora. O conector possui um LED que indica o status do link, se apagado o link está sincronizado. O link contém até 30 canais digitais. A vista frontal da interface 1E1 é exibida a seguir.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/TroncoDigital1E1.JPG">
+                                <figcaption>Vista frontal 1E1</figcaption>
+                            </figure>
+
+                            <p>No item Instalação das placas nos gabinetes UnniTI 2000 e 3000, seção 2.19. Instalação das UnniTIs 2000 e 3000, é exibida a maneira correta para instalação da placa no gabinete.</p>
+                        </section>
+
+                        <section id="troDig2E1">
+                            <h2>Tronco digital 2E1</h2>
+
+                            <p>A placa tronco digital 2E1 é a mesma para a UnniTI 2000 e a 3000 e deve ser conectada somente no slot 1 de ambas as centrais. Ela possui 2 conectores RJ45 para conexões dos links 1 e 2 da interface E1 com a operadora. Cada conector possui um LED que indica o status do link, se apagado o link está sincronizado. A placa 2E1 tem 60 canais digitais, cada link contém 30 canais. A vista frontal da interface 2E1 é exibida a seguir.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/TroncoDigital2E1.JPG">
+                                <figcaption>Vista frontal 2E1</figcaption>
+                            </figure>
+
+                            <p>No item Instalação das placas nos gabinetes UnniTI 2000 e 3000, seção 2.19. Instalação das UnniTIs 2000 e 3000, é exibida a maneira correta para instalação da placa no gabinete.</p>
+                        </section>
+
+                        <section id="conLinkE1">
+                            <h2>Conexão dos links 1E1 e 2E1</h2>
+
+                            <p>Cada link E1 é interligado a uma operadora pelo conector RJ45 das interfaces 1E1 e 2E1. O conector RJ45 deverá ser crimpado conforme a ordem indicada na figura a seguir. O Rx é conectado nos pinos 1 e 2 e o Tx nos pinos 4 e 5.</p>
+
+                            <figure class="limited">
+                                <img src="../res/img/hw/ConexaoFioE1.JPG">
+                                <figcaption>Conexões dos fios no RJ45 para link 1 da 1E1/2E1</figcaption>
+                            </figure>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Pino</th>
+                                        <th>Descrição</th>
+                                        <th>Cor</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>RxRing</td>
+                                        <td>Verde/branco</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>RxTip</td>
+                                        <td>Verde</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Não conectado</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>TxRing</td>
+                                        <td>Azul</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>TxTip</td>
+                                        <td>Azul/branco</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Não conectado</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Não conectado</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Não conectado</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p>Dependendo do modem E1, a conexão entre o modem e as interfaces 1E1 e 2E1 não poderá ser diretamente com o conector RJ45, sendo necessária a utilização do balun que acompanha as interfaces. O balun é responsável pelo casamento de impedâncias, 75 Ω (cabos coaxiais) com 120 Ω (conector RJ45). Através dele é possível a interligação entre as interfaces 1E1 e 2E1 e equipamentos que possuem saídas Tx e Rx com cabos coaxiais.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/Balun.JPG">
+                                <figcaption>Balun</figcaption>
+                            </figure>
+                        </section>
+
+                        <section id="troGSM">
+                            <h2>Tronco GSM/3G</h2>
+
+                            <p>A placa tronco GSM/3G é a mesma para a UnniTI 2000 e a 3000. Ela possui 4 conectores para os cartões SIM e um conector SMA fêmea para a antena, podendo aumentar para mais 4 conectores para cartões SIM e mais um conector de antena com a conexão da placa expansão, totalizando 8 canais GSM/3G e duas antenas. A vista frontal da tronco GSM/3G é exibida a seguir.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/TroncoGSM.JPG">
+                                <figcaption>Vista frontal tronco GSM/3G</figcaption>
+                            </figure>
+
+                            <p>Os conectores para os cartões SIM de 1 a 4 compartilham o mesmo conector SMA fêmea (1-4) para a antena. Os conectores dos cartões SIM de 5 a 8 e o conector SMA fêmea (5-8) para a antena somente estarão acessíveis com a placa expansão instalada. No item Instalação das placas nos gabinetes UnniTI 2000 e 3000, seção 2.19. Instalação das UnniTIs 2000 e 3000, é exibida a maneira correta para instalação da placa no gabinete.</p>
+                        </section>
+
+                        <section id="expGSM">
+                            <h2>Expansão GSM/3G</h2>
+                            <p>A placa expansão GSM/3G possui 4 conectores para os cartões SIM e um conector SMA fêmea para a antena. Ela só funciona conectada na placa tronco GSM/3G. Com ela conectada a capacidade de cartões SIM aumenta para até 8 canais GSM/3G, sendo 4 na tronco GSM/3G e 4 na expansão. A placa expansão não acompanha a placa tronco GSM/3G, ela é adquirida separadamente.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/ExpansaoGSM.JPG">
+                                <figcaption>Placa expansão GSM/3G</figcaption>
+                            </figure>
+
+                            <section>
+                                <h3>Instalação da placa expansão GSM/3G</h3>
+                                <p>Após adquirir a placa expansão, execute o seguinte procedimento:</p>
+
+                                <p>
+                                1. Desligue o equipamento;
+                                <br>2. Retire a placa tronco GSM/3G do gabinete UnniTI;
+                                <br>3. Alinhe os conectores de ambas as placas e conecte-as, conforme indica a figura a seguir;
+                                <br>4. Insira na central e aperte bem os parafusos;
+                                <br>5. Ligue o equipamento.
+                                </p>
+
+                                <figure>
+                                    <img src="../res/img/hw/InstalacaoExpansaoGSM.JPG">
+                                    <figcaption>Instalação da expansão na tronco GSM/3G</figcaption>
+                                </figure>
+                            </section>
+                        </section>
+
+                        <section id="antTroExpGSM">
+                            <h2>Antena para tronco e expansão GSM/3G</h2>
+
+                            <p>A antena para conectar na tronco e na expansão GSM/3G é apresentada na figura que segue. Ela é uma miniantena de base magnética, quad band (850/900/1800/1900 MHz), ganho de 5 dBi, conexão SMA macho e cabo de 3 metros. Uma antena acompanha tronco GSM/3G e outra a placa expansão.</p>
+
+                            <figure class="limited">
+                                <img src="../res/img/hw/AntenaGSM.JPG">
+                                <figcaption>Antena da tronco e expansão GSM/3G</figcaption>
+                            </figure>
+
+                            <!-- add -->
+                            <p>O conector SMA macho da antena deve ser conectado no conector para antena da placa base GSM/3G (1-4) e no conector da placa expansão GSM/3G (5-8). O conector (5-8) só estará disponível se a placa expansão GSM/3G estiver conectada.</p>
+
+                            <!-- add -->
+                            <p class="ale high">Escolha um local com bom nível de sinal celular para posicionar a antena GSM. Quanto melhor o sinal, melhor será a qualidade do áudio. O nível do sinal poderá ser avaliado no gerenciador web, em <a href="manualGerWeb_pt-BR.html#troncosM">Troncos > Monitoramento</a>. Evite instalar o PABX e a antena em locais próximos a equipamentos geradores de campo magnético, tais como: motores, quadro de energia, estações de rádio, etc. Se houver mais de uma antena GSM, a distância mínima entre elas deve ser de 1 metro.</p>
+                        </section>
+
+                        <section id="instalacao">
+                            <h2>Instalação das UnniTIs 2000 e 3000</h2>
+
+                            <section>
+                                <h3>Aterramento</h3>
+
+                                <p>O aterramento da tomada de energia elétrica na qual o equipamento será ligado deverá estar de acordo com a norma ABNT NBR 5410. As UnniTIs 2000 e 3000 estarão conectadas a esse aterramento através do cabo tripolar que acompanha o produto.</p>
+
+                                <p class="ale high">Atenção: se a tomada da rede de energia elétrica na qual a UnniTI será conecta não possuir o pino de terra, ele poderá ser conectado pela conexão extra para terra localizada na parte posterior, conforme indica a figura a seguir.</p>
+
+                                <figure class="limited">
+                                    <img src="../res/img/hw/ConexaoTerra.JPG">
+                                    <figcaption>Conexão extra para terra</figcaption>
+                                </figure>
+                            </section>
+
+                            <section>
+                                <h3>Instalação das UnniTIs 2000 e 3000 no rack 19” (EIA)</h3>
+
+                                <p>As dimensões das UnniTIs 2000 e 3000 atendem ao padrão EIA (Electronic Industries Alliance), permitindo a instalação em racks de 19” desde que haja 2 U e 3 U, respectivamente, de altura disponível para a fixação. Para instalar o produto em um rack, siga o procedimento.</p>
+
+                                <p>1. Parafuse os suportes em formato de L que acompanham o equipamento nas laterais dele, ver ilustrações a seguir;</p>
+
+                                <figure>
+                                    <img src="../res/img/hw/2U_suportesLateraisRack.JPG">
+                                    <figcaption>Fixando os suportes laterais UnniTI 2000</figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img src="../res/img/hw/3U_suportesLateraisRack.JPG">
+                                    <figcaption>Fixando os suportes laterais UnniTI 3000</figcaption>
+                                </figure>
+
+                                <p>2. Com os suportes laterais colocados, escolha uma posição no rack, com o espaço de 2 U para a UnniTI 2000 e 3 U para a UnniTI 3000, e fixe-o de acordo com as indicações a seguir;</p>
+
+                                <p class="ale high">Atenção: os parafusos para fixar no rack não são fornecidos.</p>
+
+                                <figure>
+                                    <img src="../res/img/hw/2U_fixacaoRack.JPG">
+                                    <figcaption>Fixando a UnniTI 2000 no rack</figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img src="../res/img/hw/3U_fixacaoRack.JPG">
+                                    <figcaption>Fixando a UnniTI 3000 no rack</figcaption>
+                                </figure>
+
+                                <p>3. Certifique-se de que as aberturas para ventilação não estejam obstruídas, isso garantirá uma melhor dissipação de calor e uma ventilação correta;</p>
+
+                                <p>4. Conecte o cabo de alimentação no conector (90 ~ 220 Vac) localizado na parte posterior e na rede de energia elétrica com aterramento e ligue a UnniTI na chave liga-desliga;</p>
+
+                                <p>5. Conecte a UnniTI à rede local através do conector LAN localizado na CPU, na parte frontal do equipamento.</p>
+                            </section>
+
+                            <section>
+                                <h3>Instalação das UnniTIs 2000 e 3000 na parede</h3>
+                                <p>Para instalação das UnniTIs 2000 e 3000 na parede, siga o procedimento:</p>
+
+                                <p>1. Parafuse os suportes em formato de L que acompanham o equipamento nas laterais dele, ver ilustrações a seguir;</p>
+
+                                <figure>
+                                    <img src="../res/img/hw/2U_suportesLateraisParede.JPG">
+                                    <figcaption>Fixando os suportes laterais UnniTI 2000</figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img src="../res/img/hw/3U_suportesLateraisParede.JPG">
+                                    <figcaption>Fixando os suportes laterais UnniTI 3000</figcaption>
+                                </figure>
+
+                                <p>2. Com os suportes laterais colocados, escolha uma posição na parede e fi xe-o de acordo com as indicações a seguir. A central deve ficar no mínimo a 150 cm do chão e com 40 cm livre ao seu redor;</p>
+
+                                <figure class="limited">
+                                    <img src="../res/img/hw/2U_fixacaoParede.JPG">
+                                    <figcaption>Fixando a UnniTI 2000 na parede</figcaption>
+                                </figure>
+
+                                <figure class="limited">
+                                    <img src="../res/img/hw/3U_fixacaoParede.JPG">
+                                    <figcaption>Fixando a UnniTI 3000 na parede</figcaption>
+                                </figure>
+
+                                <p>3. Certifique-se de que as aberturas para ventilação não estejam obstruídas; isso garantirá uma melhor dissipação de calor e uma ventilação correta;</p>
+
+                                <p>4. Conecte o cabo de alimentação no conector (90 ~ 220 Vac) localizado na parte posterior e na rede de energia elétrica com aterramento e ligue a UnniTI na chave liga-desliga;</p>
+
+                                <p>5. Conecte a UnniTI à rede local através do conector LAN localizado na CPU, na parte frontal do equipamento.</p>
+                            </section>
+
+                            <section>
+                                <h3>Instalação das UnniTIs 2000 e 3000 em superfície lisa</h3>
+
+                                <p>As UnniTIs 2000 e 3000 também podem ser colocadas sobre uma superfície lisa, como uma mesa ou prateleira.</p>
+
+                                <p>Para realizar essa instalação siga os procedimentos:</p>
+
+                                <p>1. Fixe os quatro pés de borracha (que acompanham o produto) na base do equipamento, conforme as figuras a seguir. Os pés de borracha são autoadesivos, retire a proteção para possibilitar a colagem;</p>
+
+                                <figure>
+                                    <img src="../res/img/hw/2U_fixacaoPesBorracha.JPG">
+                                    <figcaption>Fixação dos pés de borracha na UnniTI 2000</figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img src="../res/img/hw/3U_fixacaoPesBorracha.JPG">
+                                    <figcaption>Fixação dos pés de borracha na UnniTI 3000</figcaption>
+                                </figure>
+
+                                <p>2. Certifique-se de que as aberturas para ventilação não estejam obstruídas, isso garantirá uma melhor dissipação de calor e uma ventilação correta;</p>
+
+                                <p>3. Conecte o cabo de alimentação no conector (90 ~ 220 Vac) localizado na parte posterior e na rede de energia elétrica com aterramento e ligue a UnniTI na chave liga-desliga;</p>
+
+                                <p>4. Conecte a UnniTI à rede local através do conector LAN localizado na CPU, na parte frontal do equipamento.</p>
+                            </section>
+
+                            <section>
+                                <h3>Instalação das placas nos gabinetes UnniTI 2000 e 3000</h3>
+                                <p>A inclusão das placas no gabinete devem ser feitas com a central desligada. Após inserir a placa, certifique-se de que os parafusos de fi xação dos perfi s foram devidamente apertados, além de garantir a fi xação eles também são responsáveis pelo aterramento da placa. A inclusão da placa 1E1 ou 2E1 deve ser no slot 1, em outro não funcionará. Com todas as placas inseridas, ligue o equipamento. As figuras a seguir indicam a maneira correta para inserir as placas nas UnniTIs 2000 e 3000.</p>
+
+                                <figure>
+                                    <img src="../res/img/hw/2U_insercaoPlacas.JPG">
+                                    <figcaption>Inserção das placas na UnniTI 2000</figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img src="../res/img/hw/3U_insercaoPlacas.JPG">
+                                    <figcaption>Inserção das placas na UnniTI 3000</figcaption>
+                                </figure>
+                            </section>
+                        </section>
+                    </section>
+
+                    <section id="opeBasica">
+                        <h1>Operação básica</h1>
+
+                        <section id="aceGerWeb">
+                            <h2>Acessar o gerenciador web</h2>
+
+                            <p>1. Para o acesso ao gerenciador das UnniTIs 2000 e 3000, deve-se conectar o cabo de rede no conector LAN da CPU, conforme ilustra a figura a seguir;</p>
+
+                            <figure class="limited">
+                                <img src="../res/img/hw/CenarioRede.JPG">
+                                <figcaption>Cenário da UnniTI na rede local</figcaption>
+                            </figure>
+
+                            <p>2. A rede local deve estar configurada para a mesma rede das UnniTIs 2000 e 3000. A interface LAN da UnniTI sai configurada de fábrica com o IP 10.0.0.2 e a máscara 255.255.255.0;</p>
+
+                            <p>3. Abrir o navegador web, ex.: Mozilla Firefox<sup>®</sup>, e digitar o endereço IP 10.0.0.2, como mostra figura a seguir:</p>
+
+                            <figure class="limited">
+                                <img src="../res/img/hw/EnderecoLANNavegador.JPG">
+                                <figcaption>Endereço da LAN no padrão de fábrica</figcaption>
+                            </figure>
+
+                            <!-- add -->
+                            <p class="ale high">Para consultar quais são os navegadores web compatíveis,  <a href="manualGerWeb_pt-BR.html#requisitos" target="_blank">clique aqui</a> , ou acesse o manual gerenciador web do produto UnniTI em <a href="www.intelbras.com.br">www.intelbras.com.br</a>.</p>
+
+                            <p>4. Ao solicitar autenticação, digite admin tanto para login quanto para senha. A figura a seguir mostra uma imagem da solicitação de autenticação.</p>
+
+                            <figure class="limited">
+                                <img src="../res/img/hw/login.JPG">
+                                <figcaption>Janela de acesso ao gerenciador</figcaption>
+                            </figure>
+
+                            <p>Com acesso liberado ao gerenciador das UnniTIs 2000 e 3000 pode-se fazer as configurações desejadas e também o monitoramento das interfaces conectadas no equipamento. Para mais detalhes, consultar o manual no site <a href="www.intelbras.com.br">www.intelbras.com.br</a> ou ajuda no próprio gerenciador web, como indica a figura a seguir.</p>
+
+                            <figure class="limited">
+                                <img src="../res/img/hw/barraFerramentas.JPG">
+                                <figcaption>Ajuda no gerenciador UnniTI</figcaption>
+                            </figure>
+
+                            <!-- add -->
+                            <p>Outra forma de acessar os manuais é através dos ícones de ajuda localizados nos painéis e formulários de configuração. Ao clicar sobre estes ícones, será aberto o manual em uma nova aba do seu navegador, porém com o diferencial de já ir direto para a seção relacionada à tela em que foi solicitada ajuda. No exemplo indicado na figura abaixo, ao clicar no ícone ajuda da tela Disposição de placas, o manual será aberto nessa seção.</p>
+
+                            <figure>
+                                <img src="../res/img/hw/ajudaPainel.png">
+                                <figcaption>Acesso direto à seção desejada no manual.</figcaption>
+                            </figure>
+
+                        </section>
+
+                        <section id="reaCha">
+                            <h2>Realizar chamadas</h2>
+
+                            <section>
+                                <h3>Chamada interna</h3>
+                                <p>Para realizar uma chamada interna, de ramal para ramal, deve-se tirar o telefone do gancho e discar o número do ramal desejado.</p>
+                            </section>
+
+                            <section>
+                                <h3>Chamada externa</h3>
+                                <p>Para realizar uma chamada externa, de ramal para tronco analógico, deve-se tirar o telefone do gancho e discar 0<sup>1</sup> (zero) mais o número desejado.</p>
+
+                                <p><sup>1</sup> Padrão de fábrica.</p>
+                            </section>
+
+                            <section>
+                                <h3>Transferir chamada para outro ramal</h3>
+                                <p>Ao atender uma ligação, caso necessário é possível transferi-la. Para isso realize o seguinte procedimento: com a chamada estabelecida, em conversação, pressionar a tecla Flash do telefone e disque o número do ramal para o qual será transferida a ligação.</p>
+                            </section>
+                        </section>
+                    </section>
+
+                    <section id="duvFreq">
+                        <h1>Dúvidas frequentes</h1>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="min-width: 210px">Problema</th>
+                                    <th>Solução</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Como faço para saber o número do meu ramal?</td>
+                                    <td>Você pode ouvir o número do ramal pelo telefone digitando o comando *87*, após esse procedimento será informado o número do ramal.</td>
+                                </tr>
+                                <tr>
+                                    <td>Como faço para saber o IP e a máscara da interface LAN?</td>
+                                    <td>
+                                    » Você pode ouvir o endereço IP da LAN pelo telefone digitando o comando *60991*, após esse procedimento será informado o endereço IP da LAN.
+                                    <br>» Você pode ouvir a máscara de rede da LAN pelo telefone digitando o comando *60990*, após esse procedimento será informado a máscara da LAN.
+                                    <br>» A outra forma de saber o endereço IP e a máscara de rede é conectando um pen drive que utilize um sistema de arquivos padrão FAT32, na porta USB da placa CPU. Deixe-o conectado por aproximadamente 30 segundos. Desconecte o pen drive e conecte-o em um computador. Localize o arquivo IP.txt. Abra-o e verifique no grupo eth0, que é correspondente a porta LAN, no campo inet addr:, o endereço IP, e no campo Mask:, a máscara.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Como faço para configurar o IP e a máscara da interface LAN pelo telefone?</td>
+                                    <td>
+                                    O endereço IP e a máscara de rede podem ser configurados pelo telefone desde que o ramal esteja habilitado como operadora. No padrão de fábrica apenas os ramais 2000 e 2001 são operadoras.
+                                    <br>Para fazer a configuração pelo telefone digite o seguinte comando: * 12 [senha geral<sup>1</sup>] * 2 # [endereço IP] # [máscara de rede] # [gateway]#*
+                                    <br><sup>1</sup> No padrão de fábrica a senha geral é 1234.
+                                    <br>Exemplo: para configurar o endereço IP 192.168.10.10, máscara de rede 255.255.255.0 e gateway 192.168.10.1, o comando será: * 12 1234 * 2 # 192*168*10*10 # 255*255*255*0 # 192*168*10*1 #*
+                                    <p class="ale high">Importante: após finalizar esse comando a central será reiniciada.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Como recuperar a inicialização do sistema?</td>
+                                    <td>Caso o <em>LED</em> de status da placa CPU indique <em>Aguardando sistema</em> por mais de 10 minutos e não avance para o status <em>Central inicializada</em>, aguarde o carregamento da tela de login no navegador, se autentique, acesse <em>Sistema > Banco de dados</em> e clique em <em>Padrão de fábrica</em>. Quando for apresentada a mensagem Reiniciando, desligue e ligue a central novamente pelo botão físico, localizado na parte traseira do <em>PABX</em>. Caso a tela de login não seja apresentada, tente um dos procedimentos de recovery a seguir.
+
+                                    <!-- add -->
+                                    <p class="ale high">Importante: todas as configurações e os dados gerados pelo uso serão apagados. O endereço IP que estava configurado será mantido, facilitando o acesso novamente ao <em>PABX</em> após a reinicialização.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Como retornar o banco de dados ao padrão de fábrica pelo telefone?</td>
+                                    <td>Pelo telefone é possível retornar o banco de dados para o padrão de fábrica. Para isso o ramal precisa estar habilitado como operadora. No padrão de fábrica apenas os ramais 2000 e 2001 são operadoras.
+                                    <br>Para retornar ao padrão de fábrica digite o seguinte comando: * 13 [senha geral<sup>1</sup>] * 99 76 *
+
+                                    <!-- add -->
+                                    <p class="ale high">Importante: todas as configurações e os dados gerados pelo uso serão apagados. O endereço IP que estava configurado será mantido, facilitando o acesso novamente ao <em>PABX</em> após a reinicialização.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <!-- add -->
+                                    <td>Como fazer a <em>recovery</em> da placa CPU?</td>
+                                    <td>Caso não seja possível executar o procedimento de retornar o banco de dados ao padrão de fábrica ou foi executado, mas não resolveu, então o problema pode estar relacionado a algum problema no <em>firmware</em>. Neste caso, pode-se executar a recuperação da placa CPU ao padrão de fábrica.
+
+                                    <p class="high ale">Ao executar este procedimento, todas as configurações alteradas e dados gerados pelo uso da central serão perdidos.</p>
+
+                                    <p>O arquivo de <em>recovery</em> deve ser obtido na seção <em>downloads</em> do produto UnniTI no site da Intelbras. O nome desse arquivo contém a palavra <em>recover</em>. Baixe o arquivo e salve no computador. Desligue a central, retire a placa CPU, retire os jumpers <em>WD (Watch Dog)</em> e <em>J3</em> para ativar o modo <em>recover</em>. Ligue a central novamente, aguarde cerca de 1 minuto e tente acessar através do navegador o endereço IP http://10.0.0.2 (http, sem o s). O computador deve possuir a interface de rede configurada para acessar essa classe de IP. É recomendado conectar o cabo de rede diretamente entre o computador e a central. Deverá ser apresentada a tela <em>Modo de recuperação</em>. A primeira etapa a ser executada é o auto-teste do <em>hardware</em>, que informa a identificação do <em>hardware</em>; testa escrita e leitura na memória; verifica se os CODECs <em>VoIP</em> estão conectados; testa o <em>FPGA</em> (que é o controlador da comunicação entre a CPU e as outras placas); verifica se a chave de <em>hardware</em> está conectada na porta USB; testa as portas de rede <em>LAN</em> e <em>WAN</em>. Assim que o auto-teste for concluído, será apresentado o campo para selecionar o arquivo de <em>recovery</em>. Se a opção <em>não executar o auto-teste</em> foi selecionada, este campo será apresentado imediatamente. Localize o arquivo de <em>recovery</em> em seu computador e clique em <em>Enviar</em>. Aguarde até 10 minutos para que seja apresentado o log da operação e a mensagem <em>"OK Fim da atualização com sucesso"</em>. Assim que o procedimento for concluído, desligue a central, retire a placa CPU, recoloque os jumpers <em>WD</em> e <em>J3</em>, insira a placa CPU e ligue a central. Aguarde a central inicializar observando o <em>LED</em> Status da CPU e digite, na barra de endereços do navegador, o endereço IP da central, por exemplo, considerando o padrão de fábrica, https://10.0.0.2 (https, com o s). Deverá ser apresentada a tela de autenticação.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <!-- add -->
+                                    <td>A porta USB externa não está funcionando</td>
+                                    <td>Verifique se o <em>download</em> de arquivos de gravação via FTP está habilitado no gerenciador web em <a href="manualGerWeb_pt-BR.html#acessoriosGC" target="_blank">Acessórios > Gravação de chamadas</a>. A porta USB externa estará desabilitada se essa funcionalidade estiver habilitada.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p><sup>1</sup> No padrão de fábrica a senha geral é 1234.</p>
+                    </section>
+
+                    <section id="termoGarantia">
+                        <h1>TERMO DE GARANTIA</h1>
+                        <p>Para a sua comodidade, preencha os dados abaixo, pois, somente com a apresentação deste em conjunto com a nota fiscal de compra do produto, você poderá utilizar os benefícios que lhe são assegurados.</p>
+                        <p><strong>Nome do cliente:</strong></p>
+                        <p><strong>Assinatura do cliente:</strong></p>
+                        <p><strong>Nº da nota fiscal:</strong></p>
+                        <p><strong>Data da compra:</strong></p>
+                        <p><strong>Modelo:</strong></p>
+                        <p><strong>Nº de série:</strong></p>
+                        <p><strong>Revendedor:</strong></p>
+
+                        <p>Fica expresso que esta garantia contratual é conferida mediante as seguintes condições:</p>
+
+                        <p>1. Todas as partes, peças e componentes do produto são garantidos contra eventuais defeitos de fabricação, que porventura venham a apresentar, pelo prazo de 1 (um) ano – sendo 3 (três) meses de garantia legal e 9 (nove) meses de garantia contratual –, contado a partir da data de entrega do produto ao Senhor Consumidor, conforme consta na nota fiscal de compra do produto, que é parte integrante deste Termo em todo o território nacional. Esta garantia contratual compreende a troca gratuita de partes, peças e componentes que apresentarem defeito de fabricação, incluindo a mão de obra utilizada nesse reparo. Caso não seja constatado defeito de fabricação, e sim defeito(s) proveniente(s) de uso inadequado, o Senhor Consumidor arcará com essas despesas.
+                        </p>
+
+                        <p>2. Constatado o defeito, o Senhor Consumidor deverá imediatamente comunicar-se com o Serviço Autorizado mais próximo que conste na relação oferecida pelo fabricante – somente estes estão autorizados a examinar e sanar o defeito durante o prazo de garantia aqui previsto. Se isso não for respeitado, esta garantia perderá sua validade, pois estará caracterizada a violação do produto.</p>
+
+                        <p>3. Na eventualidade de o Senhor Consumidor solicitar atendimento domiciliar, deverá encaminhar-se ao Serviço Autorizado mais próximo para consulta da taxa de visita técnica. Caso seja constatada a necessidade da retirada do produto, as despesas decorrentes de transporte e segurança de ida e volta do produto ficam sob a responsabilidade do Senhor Consumidor.</p>
+
+                        <p>4. A garantia perderá totalmente sua validade na ocorrência de quaisquer das hipóteses a seguir: a) se o defeito não for de fabricação, mas sim, ter sido causado pelo Senhor Consumidor ou terceiros estranhos ao fabricante; b) se os danos ao produto forem oriundos de acidentes, sinistros, agentes da natureza (raios, inundações, desabamentos, etc.), umidade, tensão na rede elétrica (sobretensão provocada por acidentes ou flutuações excessivas na rede), instalação/uso em desacordo com o Manual do Usuário ou decorrentes do desgaste natural das partes, peças e componentes; c) se o produto tiver sofrido influência de natureza química, eletromagnética, elétrica ou animal (insetos, etc.); d) se o número de série do produto tiver sido adulterado ou rasurado; e) se o aparelho tiver sido violado.</p>
+
+                        <p>A garantia contratual deste termo é complementar à legal, portanto, a Intelbras S/A reserva-se o direito de alterar as características gerais, técnicas e estéticas de seus produtos sem aviso prévio.</p>
+
+                        <p>Todas as imagens deste manual são ilustrativas.</p>
+
+                        <p>Produto beneficiado pela Legislação de Informática.</p>
+
+                        <p style="font-style: italic">Kingston é marca registrada da Kingston Technology Company. SanDisk é marca registrada da SanDisk Corporation. Transcend é marca registrada da Transcend Information, Inc. Firefox é uma marca registrada da Mozilla Foundation. Toshiba é uma marca registrada da Toshiba Corporation. Samsung é uma marca registrada da Samsung Electronics Co. Ltd. Panasonic é uma marca registrada da Panasonic Corporation.</p>
+                    </section>
+
+                    <section id="faleCom" class="fale-com-a-gente">
+                        <div class="div-logo-fale-com-a-gente">
+                            <img src="../res/img/intelbras_marca.svg" class="logo-itb-fale-com-a-gente">
+                        </div>
+                        <hr class="divider">
+
+                        <img src="../res/img/faleCom.jpg" class="logo-fale-com-a-gente">
+                        <div class="div-info-fale-com-a-gente">
+                            <p><strong>Suporte a clientes:</strong> (48) 2106 0006</p>
+                            <p><strong>Fórum:</strong> <a href="http://forum.intelbras.com.br" target="blank">forum.intelbras.com.br</a></p>
+                            <p><strong>Suporte via chat:</strong> <a href="http://www.intelbras.com.br/suporte-tecnico" target="blank">intelbras.com.br/suporte-tecnico</a></p>
+                            <p><strong>Suporte via e-mail</strong>: suporte@intelbras.com.br</p>
+                            <p><strong>SAC:</strong> 0800 7042767</p>
+                            <p><strong>Onde comprar? Quem instala?:</strong> 0800 7245115</p>
+                            <p>Produzido por: Intelbras S/A – Indústria de Telecomunicação Eletrônica Brasileira</p>
+                            <p>Rodovia SC 281, km 4,5 – Sertão do Maruim – São José/SC - 88122-001</p>
+                            <p><a href="http://www.intelbras.com.br" target="blank">www.intelbras.com.br</a></p>
+                            <p>Indústria Brasileira</p>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
